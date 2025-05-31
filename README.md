@@ -91,11 +91,11 @@ where before the final line:
 
 we add the line:
 
-```/home/levente/fbcp-ili9341/build/fbcp-ili9341 &```
+```/home/USER/fbcp-ili9341/build/fbcp-ili9341 &```
 
 So the end of the file will look like this:
 
-```/home/levente/fbcp-ili9341/build/fbcp-ili9341 &```
+```/home/USER/fbcp-ili9341/build/fbcp-ili9341 &```
 ```exit 0```
 
 If you are using moOde Audio Player, 
@@ -118,18 +118,18 @@ Create a script named:
 which should have the following content:
 ```
 #!/bin/bash
-echo "$(date): Script start" >> /home/levente/fbcp.log
+echo "$(date): Script start" >> /home/USER/fbcp.log
 sleep 40
 echo "$(date): Sleep ended, starting fbcp-ili9341" >> /home/levente/fbcp.log
 
-exec /home/levente/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotation=270
+exec /home/USER/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotation=270
 ```
 
 This will cause the graphics driver to start 40 seconds after boot, enough time for moOde Audio to start the graphical interface.
 
 Make sure the script is executable:
 
-```chmod +x /home/levente/start_fbcp.sh```
+```chmod +x /home/USER/start_fbcp.sh```
 
 Create the file:
 
@@ -149,7 +149,7 @@ Status check:
 
 Check the created log:
 
-```cat /home/levente/fbcp.log```
+```cat /home/USER/fbcp.log```
 
 Final test:
 
