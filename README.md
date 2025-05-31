@@ -100,8 +100,16 @@ So the end of the file will look like this:
 
 If you are using moOde Audio Player, 
 you will need to delay the driver startup so that the moOde graphical interface is already active and only then start the driver.
-
 In this case, you will not do the automatic startup from the /etc/rc.local file!
+
+
+If you want to use the display for moOde Audio, you will first need to activate it from the moOde Audio web interface at
+CONFIGURATION -> SYSTEM-> Peripherals
+Display -> ON
+Wake on play -> ON
+
+![Screenshot 2025-05-31 171235](https://github.com/user-attachments/assets/107669fa-f7a7-4bec-9661-951e6a766ba3)
+
 
 Create a script named:
 
