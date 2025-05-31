@@ -167,12 +167,19 @@ The PCM5102A DAC was connected to the Raspberry Pi Zero 2W as follows:
 ![1f8ddabc-b43d-4cc9-b6ff-b85c44f8adf4~1](https://github.com/user-attachments/assets/dcf4e1f2-f6f1-4cd9-8d59-ba102cb1a4e9)
 
 To enable the PCM5102A DAC in the moOde Audio interface, go to:
+
 CONFIGURE -> SYSTEM -> AUDIO
+
 and under
+
 ```Named I2S device```
+
 choose
+
 ```Generic-2 I2S(i2s-dac)```
+
 then reboot Audio mode.
+
 
 You can see more details in this video: https://youtu.be/67Y9l3aPVuQ
 
