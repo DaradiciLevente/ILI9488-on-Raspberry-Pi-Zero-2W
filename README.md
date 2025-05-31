@@ -1,6 +1,6 @@
 # ILI9488 on Raspberry Pi Zero 2W with moOde Audio
 
-How to use a ILI9488 SPI display on a Raspberry Pi Zero 2W.
+How to use a ILI9488 SPI display on a Raspberry Pi Zero 2W with moOde Audio.
 
 ATTENTION! This procedure only works correctly on 32-bit systems! Unfortunately, I have not yet found a solution to use this display on a 64-bit system!
 If anyone has the solution, I would be happy if they would also provide it to me.
