@@ -57,6 +57,7 @@ Then clone and build the project:
 
 ```make -j```
 
+![Screenshot 2025-05-31 162246](https://github.com/user-attachments/assets/72723046-5a78-40a5-b731-5e7866f434bc)
 
 
 
