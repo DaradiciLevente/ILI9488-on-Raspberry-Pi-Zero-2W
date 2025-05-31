@@ -98,6 +98,8 @@ So the end of the file will look like this:
 ```/home/USER/fbcp-ili9341/build/fbcp-ili9341 &```
 ```exit 0```
 
+ATTENTION! On every command line where you encounter USER, it will need to be replaced with your username!
+
 If you are using moOde Audio Player, 
 you will need to delay the driver startup so that the moOde graphical interface is already active and only then start the driver.
 In this case, you will not do the automatic startup from the /etc/rc.local file!
