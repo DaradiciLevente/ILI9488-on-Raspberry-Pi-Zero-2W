@@ -111,11 +111,13 @@ which should have the following content:
 ```
 #!/bin/bash
 echo "$(date): Script start" >> /home/levente/fbcp.log
-sleep 60
+sleep 40
 echo "$(date): Sleep ended, starting fbcp-ili9341" >> /home/levente/fbcp.log
 
 exec /home/levente/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotation=270
 ```
+
+#This will cause the graphics driver to start 40 seconds after boot, enough time for moOde Audio to start the graphical interface.
 
 Make sure the script is executable:
 
