@@ -15,8 +15,11 @@ Edit the file:
 ```sudo nano /boot/config.txt```
 
 And if you find the line:
+
 ```dtparam=spi=on```
+
 put a # in front of that line so that the line looks like this:
+
 ```#dtparam=spi=on```
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
