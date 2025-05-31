@@ -178,6 +178,8 @@ choose
 
 ```Generic-2 I2S(i2s-dac)```
 
+![Screenshot 2025-05-31 173557](https://github.com/user-attachments/assets/ba611387-1aed-418a-a912-c0f0db03ef6e)
+
 then reboot Audio mode.
 
 
