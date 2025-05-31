@@ -1,0 +1,26 @@
+
+[cm4]
+otg_mode=1
+
+[pi4]
+hdmi_force_hotplug:0=1
+hdmi_force_hotplug:1=1
+
+[all]
+disable_splash=0
+disable_overscan=1
+hdmi_drive=2
+hdmi_blanking=1
+hdmi_force_edid_audio=1
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt=600 400 5 1 0 0 0
+framebuffer_width=600
+framebuffer_height=400
+dtparam=i2c_arm=on
+dtparam=i2s=on
+dtparam=audio=off
+dtoverlay=i2s-dac
+dtoverlay=fb_ili9488,spi-bus=0,rotate=270,fps=15
+#dtparam=spi=on
