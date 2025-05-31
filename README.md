@@ -30,6 +30,9 @@ Next is the installation of the FBCP driver and its configuration for the ILI948
 
 ```sudo apt update```
 
+![ili9488_1](https://github.com/user-attachments/assets/2b716828-2851-4461-95ee-59c81c6ac153)
+
+
 ```sudo apt install cmake git build-essential```
 
 
