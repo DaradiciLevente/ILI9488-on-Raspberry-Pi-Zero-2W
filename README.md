@@ -122,7 +122,7 @@ which should have the following content:
 #!/bin/bash
 echo "$(date): Script start" >> /home/USER/fbcp.log
 sleep 40
-echo "$(date): Sleep ended, starting fbcp-ili9341" >> /home/levente/fbcp.log
+echo "$(date): Sleep ended, starting fbcp-ili9341" >> /home/USER/fbcp.log
 
 exec /home/USER/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotation=270
 ```
