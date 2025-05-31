@@ -98,6 +98,25 @@ So the end of the file will look like this:
 ```/home/levente/fbcp-ili9341/build/fbcp-ili9341 &```
 ```exit 0```
 
+If you are using moOde Audio Player, 
+you will need to delay the driver startup so that the moOde graphical interface is already active and only then start the driver.
+
+In this case, you will not do the automatic startup from the /etc/rc.local file!
+
+Create a script named:
+
+```sudo nano /home/USER/start_fbcp.sh```
+
+which should have the following content:
+```
+#!/bin/bash
+echo "$(date): Script start" >> /home/levente/fbcp.log
+sleep 60
+echo "$(date): Sleep ended, starting fbcp-ili9341" >> /home/levente/fbcp.log
+
+exec /home/levente/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotation=270
+```
+
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
 Thanks to the author for the documentation he made available to us!
