@@ -181,7 +181,9 @@ After that you can run the executable directly from the console to test it:
 
 ```sudo ./fbcp-ili9341```
 
-For those who want to change the initial resolution, I have made my /boot/config.txt file available.
+For those who want to change the initial resolution, I have made my /boot/config.txt file available:
+
+https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/boot/config.txt
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
