@@ -30,6 +30,8 @@ Next is the installation of the FBCP driver and its configuration for the ILI948
 
 ```sudo apt update```
 
+```sudo apt install libraspberrypi-dev```
+
 ![ili9488_1](https://github.com/user-attachments/assets/2b716828-2851-4461-95ee-59c81c6ac153)
 
 
@@ -42,6 +44,20 @@ Then clone and build the project:
 ```git clone https://github.com/juj/fbcp-ili9341.git```
 
 ![Screenshot 2025-05-31 161443](https://github.com/user-attachments/assets/5e03731f-6c42-4fc9-a58b-bbdeb36b4312)
+
+
+
+```cd fbcp-ili9341```
+
+```mkdir build```
+
+```cd build```
+
+```cmake -DILI9488=ON -DGPIO_TFT_DATA_CONTROL=24 -DGPIO_TFT_RESET_PIN=25 -DSPI_BUS_CLOCK_DIVISOR=8 -DSTATISTICS=0  ..```
+
+```make -j```
+
+
 
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
