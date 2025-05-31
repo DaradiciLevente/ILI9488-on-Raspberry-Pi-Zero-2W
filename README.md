@@ -16,7 +16,7 @@ I used these hardware connections:
 
 After making the hardware connections, after the first boot, I did this.
 
-Edit the file /boot/config.txt  (If you are using Raspbian with the Desktop interface, edit the file /boot/firmware/config.txt)
+Edit the file /boot/config.txt  
 
 ```sudo nano /boot/config.txt```
 
