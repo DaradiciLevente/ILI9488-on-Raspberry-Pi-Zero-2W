@@ -189,6 +189,18 @@ If you want the music to start automatically after boot, enable autostart on boo
 
 ![Screenshot 2025-05-31 174435](https://github.com/user-attachments/assets/2a6dc673-89d2-4d80-9bd0-1e37d7dd0be9)
 
+# For those who don't want to compile, 
+in the /bin folder on this page, I provide the precompiled version of the fbcp driver for the ILI9488 display.
+
+After copying it to your system, you will need to make it executable:
+
+```sudo chmod +x fbcp-ili9341```
+
+After that you can run the executable directly from the console to test it:
+
+```sudo ./fbcp-ili9341```
+
+
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
