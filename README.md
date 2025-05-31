@@ -12,7 +12,7 @@ I used these hardware connections:
 
 After making the hardware connections, after the first boot, I did this.
 
-Edit the file:
+Edit the file /boot/config.txt
 
 ```sudo nano /boot/config.txt```
 
