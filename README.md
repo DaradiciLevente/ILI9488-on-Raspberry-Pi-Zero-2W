@@ -10,6 +10,9 @@ I used these hardware connections:
 
 <img width="357" alt="pi2ILI9488displayPinout" src="https://github.com/user-attachments/assets/39603568-4b69-46e7-b80c-c274a247b4b1" />
 
+![dd2c4761-919e-4039-92f0-f9e88d33730b~1](https://github.com/user-attachments/assets/1f7e6041-a6c6-485e-9fe7-ecee577caaa8)
+
+
 After making the hardware connections, after the first boot, I did this.
 
 Edit the file /boot/config.txt  (If you are using Raspbian with the Desktop interface, edit the file /boot/firmware/config.txt)
@@ -160,6 +163,9 @@ Final test:
 The PCM5102A DAC was connected to the Raspberry Pi Zero 2W as follows:
 
 <img width="357" alt="PiZero2W_PCM5102A_PINOUT" src="https://github.com/user-attachments/assets/c0479c4d-bf09-4c8d-a671-9429cb9f83e7" />
+
+![1f8ddabc-b43d-4cc9-b6ff-b85c44f8adf4~1](https://github.com/user-attachments/assets/dcf4e1f2-f6f1-4cd9-8d59-ba102cb1a4e9)
+
 
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
