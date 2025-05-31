@@ -117,6 +117,34 @@ echo "$(date): Sleep ended, starting fbcp-ili9341" >> /home/levente/fbcp.log
 exec /home/levente/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotation=270
 ```
 
+Make sure the script is executable:
+
+```chmod +x /home/levente/start_fbcp.sh```
+
+Create the file:
+
+```sudo nano /etc/systemd/system/fbcp-ili9341.service```
+
+after that:
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable fbcp-ili9341.service
+sudo systemctl restart fbcp-ili9341.service
+```
+
+Status check:
+
+```sudo systemctl status fbcp-ili9341.service```
+
+Check the created log:
+
+```cat /home/levente/fbcp.log```
+
+Final test:
+
+``sudo reboot``
+
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
 Thanks to the author for the documentation he made available to us!
