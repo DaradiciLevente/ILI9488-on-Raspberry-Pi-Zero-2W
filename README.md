@@ -59,7 +59,24 @@ Then clone and build the project:
 
 ![Screenshot 2025-05-31 162246](https://github.com/user-attachments/assets/72723046-5a78-40a5-b731-5e7866f434bc)
 
+At this point we have compiled the FBCP driver for the ILI9488 SPI display.
 
+To automatically start the driver at boot, we edit the file:
+
+```sudo nano /etc/rc.local```
+
+where before the final line:
+
+```exit 0```
+
+we add the line:
+
+```/home/levente/fbcp-ili9341/build/fbcp-ili9341 &```
+
+So the end of the file will look like this:
+
+```/home/levente/fbcp-ili9341/build/fbcp-ili9341 &```
+```exit 0```
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
