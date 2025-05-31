@@ -12,7 +12,7 @@ I used these hardware connections:
 
 After making the hardware connections, after the first boot, I did this.
 
-Edit the file /boot/config.txt
+Edit the file /boot/config.txt  (If you are using Raspbian with the Desktop interface, edit the file /boot/firmware/config.txt)
 
 ```sudo nano /boot/config.txt```
 
@@ -23,6 +23,16 @@ And if you find the line:
 put a # in front of that line so that the line looks like this:
 
 ```#dtparam=spi=on```
+
+Next is the installation of the FBCP driver and its configuration for the ILI9488 display.
+
+```cd ~```
+
+```sudo apt update```
+
+```sudo apt install cmake git build-essential```
+
+
 
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
