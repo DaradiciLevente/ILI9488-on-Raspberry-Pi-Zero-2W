@@ -157,6 +157,11 @@ Final test:
 
 ``sudo reboot``
 
+The PCM5102A DAC was connected to the Raspberry Pi Zero 2W as follows:
+
+<img width="357" alt="PiZero2W_PCM5102A_PINOUT" src="https://github.com/user-attachments/assets/c0479c4d-bf09-4c8d-a671-9429cb9f83e7" />
+
+
 I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 which helped me a lot to solve this challenge.
 Thanks to the author for the documentation he made available to us!
