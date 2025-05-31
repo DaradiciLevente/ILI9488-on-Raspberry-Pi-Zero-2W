@@ -164,7 +164,10 @@ choose
 
 then reboot Audio mode.
 
-You can see more details in this video: https://youtu.be/67Y9l3aPVuQ
+You can see more details in this video:
+
+[![Video preview](https://img.youtube.com/vi/67Y9l3aPVuQ/hqdefault.jpg)](https://youtu.be/67Y9l3aPVuQ)
+
 
 If you want the music to start automatically after boot, enable autostart on boot here:
 
