@@ -184,11 +184,13 @@ After that you can run the executable directly from the console to test it:
 
 ```sudo ./fbcp-ili9341```
 
-For those who want to change the initial resolution, I have made my /boot/config.txt file available:
+# For those who want to change the initial resolution, 
+I have made my /boot/config.txt file available:
 
 https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/boot/config.txt
 
-For those who don't want to get too complicated, I made a script that will auto-compile the file for you:
+# For those who don't want to get too complicated, 
+I made a script that will auto-compile the file for you:
 
 https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/auto_install_fbcp.sh
 
