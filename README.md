@@ -188,8 +188,14 @@ For those who want to change the initial resolution, I have made my /boot/config
 
 https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/boot/config.txt
 
-I found this procedure on the page: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
+For those who don't want to get too complicated, I made a script that will auto-compile the file for you:
 
-which helped me a lot to solve this challenge.
+https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/auto_install_fbcp.sh
+
+
+# Thanks:
+I found the material that helped me solve the problem here: 
+
+https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
 
 Thanks to the author for the documentation he made available to us!
