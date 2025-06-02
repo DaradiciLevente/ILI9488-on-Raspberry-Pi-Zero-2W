@@ -184,6 +184,10 @@ CONFIGURE -> SYSTEM -> AUDIO
 
 https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/boot/config.txt
 
+You can download this file directly from the ssh console with the following command:
+
+wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/boot/config.txt
+
 # For those who don't want to get too complicated, 
 
 - I made a script that will auto-compile the file for you:
