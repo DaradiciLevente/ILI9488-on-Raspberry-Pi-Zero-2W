@@ -188,7 +188,11 @@ https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Au
 
 - I made a script that will auto-compile the file for you:
 
-https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/auto_install_fbcp.sh
+wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/auto_install_fbcp.sh
+
+You can download this script directly from the ssh console with the following command:
+
+wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/auto_install_fbcp.sh
 
 # Thanks:
 - I found the material that helped me solve the problem here: 
