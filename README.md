@@ -232,7 +232,7 @@ Edit the file and change the initial resolution in lines 17,18 and 19.
 ![Screenshot 2025-06-02 200618](https://github.com/user-attachments/assets/b598c2ff-ae91-4483-9b13-0e13df9f38c4)
 
 
-# For those who don't want to get too complicated, 
+# For those who don't want to get too complicated
 
 - I made a script that will auto-compile the file for you:
 
