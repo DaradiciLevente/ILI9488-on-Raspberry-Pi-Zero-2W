@@ -218,7 +218,7 @@ https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2
 
 ```sudo fbcp-ili9341```
 
-# For those who want to change the initial resolution, 
+# For those who want to change the initial resolution
 - I have made my /boot/config.txt file available:
 
 https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/blob/main/boot/config.txt
