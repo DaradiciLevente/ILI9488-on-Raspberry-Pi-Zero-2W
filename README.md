@@ -194,7 +194,7 @@ wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Z
 
 https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/auto_install_fbcp.sh
 
-You can download this script directly from the ssh console with the following command:
+## You can download this script directly from the ssh console with the following command:
 
 ```wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/auto_install_fbcp.sh```
 
