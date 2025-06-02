@@ -109,6 +109,10 @@ exec /home/USER/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotat
 
 - This will cause the graphics driver to start 40 seconds after boot, enough time for moOde Audio to start the graphical interface.
 
+### You can download this script directly from the console like this:
+
+```wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/start_fbcp.sh```
+
 - Make sure the script is executable:
 
 ```chmod +x /home/USER/start_fbcp.sh```
