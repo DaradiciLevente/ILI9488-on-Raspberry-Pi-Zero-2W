@@ -121,7 +121,24 @@ exec /home/USER/fbcp-ili9341/build/fbcp-ili9341 --fbdev /dev/fb0 --display-rotat
 
 ```sudo nano /etc/systemd/system/fbcp-ili9341.service```
 
-- And after that:
+- Add this content to the file:
+
+```
+[Unit]
+Description=fbcp-ili9341 copy framebuffer for ILI9486/ILI9488
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/levente/start_fbcp.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+- Save the file,
+
+- And after that from the console:
 
 ```
 sudo systemctl daemon-reload
