@@ -202,6 +202,10 @@ https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2
 
 ```chmod +x auto_install_fbcp.sh```
 
+### Then run the script:
+
+```./auto_install_fbcp.sh```
+
 # Thanks:
 - I found the material that helped me solve the problem here: 
 
