@@ -198,6 +198,10 @@ https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2
 
 ```wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/auto_install_fbcp.sh```
 
+### Then, you can make the file executable with:
+
+```chmod +x auto_install_fbcp.sh```
+
 # Thanks:
 - I found the material that helped me solve the problem here: 
 
