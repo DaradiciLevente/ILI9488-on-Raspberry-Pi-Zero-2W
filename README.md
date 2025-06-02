@@ -227,6 +227,11 @@ https://github.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Au
 
 ```wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/boot/config.txt```
 
+Edit the file and change the initial resolution in lines 17,18 and 19.
+
+![Screenshot 2025-06-02 200618](https://github.com/user-attachments/assets/b598c2ff-ae91-4483-9b13-0e13df9f38c4)
+
+
 # For those who don't want to get too complicated, 
 
 - I made a script that will auto-compile the file for you:
