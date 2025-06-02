@@ -182,10 +182,17 @@ https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2
 - After copying it to your system, you will need to make it executable:
 
 ```sudo chmod +x fbcp-ili9341```
-
 - After that you can run the executable directly from the console to test it:
 
 ```sudo ./fbcp-ili9341```
+
+### If you want to install it in a global location (e.g. /usr/local/bin), you can use:
+
+```sudo mv fbcp-ili9341 /usr/local/bin/```
+
+### After that you can run it anytime with:
+
+```sudo fbcp-ili9341```
 
 # For those who want to change the initial resolution, 
 - I have made my /boot/config.txt file available:
