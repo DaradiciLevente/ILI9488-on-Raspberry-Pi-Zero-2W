@@ -171,6 +171,10 @@ CONFIGURE -> SYSTEM -> AUDIO
 
 - In the /bin folder of this repository, I provide the precompiled version of the fbcp driver for the ILI9488 display.
 
+### You can download this binary file from the console like this:
+
+```wget https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/main/bin/fbcp-ili9341```
+
 - After copying it to your system, you will need to make it executable:
 
 ```sudo chmod +x fbcp-ili9341```
