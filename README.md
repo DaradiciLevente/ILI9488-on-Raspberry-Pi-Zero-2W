@@ -136,7 +136,10 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
-- Save the file,
+- Save the file.
+
+### Or you can download the file directly from the console:
+```https://raw.githubusercontent.com/DaradiciLevente/ILI9488-on-Raspberry-Pi-Zero-2W-with-moOde-Audio/refs/heads/main/etc/systemd/system/fbcp-ili9341.service```
 
 - And after that from the console:
 
